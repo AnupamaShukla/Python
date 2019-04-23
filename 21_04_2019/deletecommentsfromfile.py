@@ -1,14 +1,10 @@
 #delete all coments from file
-
 #read file in buffer and close
-
 #for singleline comment:
 #start with # and end with \n
 #need to use re.multiline
-
 #for multiline comment:
 #start and end with ''' or """ (including \n as well)
-
 #open same file in write mode and dump the updated buffer
 
 import re
