@@ -2,7 +2,7 @@
 
 import re
 
-def printmatch(filename):
+def PrintEndInBetween(filename):
     fd = open(filename)
     data = fd.read()
     without_case=re.compile(r"\w+end\B",re.IGNORECASE)
@@ -13,7 +13,7 @@ def printmatch(filename):
 
 def main():
     filename = eval(input("Enter file name :"))
-    printmatch(filename)
+    PrintEndInBetween(filename)
     
 
 if __name__ == "__main__":
